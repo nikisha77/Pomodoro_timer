@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: 100px;
+}
+
+h1{
+    font-size: 70px;
+    margin-bottom: 50px;
+
+}
+
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+button:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+    box-shadow: darkgrey;
+    background-color: gray;
+}
+
+
+.timer{
+    font-size: 100px;
+    font-weight: bold;
+ 
+}
